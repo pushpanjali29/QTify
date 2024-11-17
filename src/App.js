@@ -4,7 +4,7 @@ import Section from "./Components/Section/Section";
 import FilterSection from "./Components/FilterSection/FilterSection";
 import { fetchTopAlbums, fetchNewAlbums, fetchSongs } from "./api/api";
 import { useEffect, useState } from "react";
-import styles from "./App.css";
+import styles from "./App.module.css";
 
 function App() {
   const [albumSongs, setalbumSongs] = useState([]);
